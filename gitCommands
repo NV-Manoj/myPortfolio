@@ -1,0 +1,51 @@
+For Initialization of Git : git init
+
+For Commiting Changes into Branch with a Comment : git commit -m "This is Commit Format"
+
+For Checking The Changes Wrked or Not : git status
+
+To Add The Entire Files of a Folder : git add .
+To Add The Particular File of a Folder : git add <file_path>
+
+To Add The remote branch to The Main Brain : git remote add origin <gitHub repo Link>  
+ex:git remote add origin https://github.com/NV-Manoj/myPortfolio.git
+
+To Push The Changes Made in Master to The Origin/Main branch : git push origin master
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+Basic Git Commands:
+
+For Initialization of Git ---> git init
+
+For Committing Changes into Branch with a Comment ---> git commit -m "This is Commit Format"
+
+For Checking The Changes Worked or Not ---> git status
+
+To Add The Entire Files of a Folder ---> git add .
+
+To Add The Particular File of a Folder ---> git add <file_path>
+
+To Add The Remote Branch to The Main Brain ---> git remote add origin
+
+To Push The Changes Made in Master to The Origin/Main Branch ---> git push origin master
+
+Additional Git Commands:
+
+To Clone a Repository ---> git clone <repository_url>
+
+To Create a New Branch ---> git branch <branch_name>
+
+To Switch to a Different Branch ---> git checkout <branch_name>
+
+To Create and Switch to a New Branch ---> git checkout -b <branch_name>
+
+To Merge Branches ---> git merge <branch_name>
+
+To View Commit History ---> git log
+
+To Stash Changes (Temporarily Save Work) ---> git stash
+
+To Apply Stashed Changes ---> git stash pop
+
+To Pull Latest Changes from Remote ---> git pull origin master
